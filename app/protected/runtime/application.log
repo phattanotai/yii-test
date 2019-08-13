@@ -1,0 +1,99 @@
+2019/08/02 11:41:19 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php:24
+Stack trace:
+#0 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(276): CWebApplication->createController('Random/')
+#1 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(141): CWebApplication->runController('Data/Random')
+#2 C:\MAMP\htdocs\diver\4\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\MAMP\htdocs\diver\4\app\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/diver/4/app/index.php?r=Data/Random
+HTTP_REFERER=http://localhost/diver/4/app/
+---
+2019/08/02 11:41:19 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php:24
+Stack trace:
+#0 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(276): CWebApplication->createController('Random/')
+#1 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(141): CWebApplication->runController('Data/Random')
+#2 C:\MAMP\htdocs\diver\4\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\MAMP\htdocs\diver\4\app\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/diver/4/app/index.php?r=Data/Random
+HTTP_REFERER=http://localhost/diver/4/app/
+---
+2019/08/02 11:41:21 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php:24
+Stack trace:
+#0 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(276): CWebApplication->createController('Random/')
+#1 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(141): CWebApplication->runController('Data/Random')
+#2 C:\MAMP\htdocs\diver\4\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\MAMP\htdocs\diver\4\app\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/diver/4/app/index.php?r=Data/Random
+HTTP_REFERER=http://localhost/diver/4/app/
+---
+2019/08/02 11:42:32 [error] [exception.ParseError] ParseError: syntax error, unexpected '}', expecting ',' or ';' in C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php:26
+Stack trace:
+#0 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(276): CWebApplication->createController('Look/')
+#1 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(141): CWebApplication->runController('Data/Look')
+#2 C:\MAMP\htdocs\diver\4\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\MAMP\htdocs\diver\4\app\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/diver/4/app/index.php?r=Data/Look
+---
+2019/08/02 11:43:09 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php:25
+Stack trace:
+#0 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(276): CWebApplication->createController('Look/')
+#1 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(141): CWebApplication->runController('Data/Look')
+#2 C:\MAMP\htdocs\diver\4\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\MAMP\htdocs\diver\4\app\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/diver/4/app/index.php?r=Data/Look
+---
+2019/08/02 11:43:15 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php:25
+Stack trace:
+#0 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(276): CWebApplication->createController('Look/')
+#1 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(141): CWebApplication->runController('Data/Look')
+#2 C:\MAMP\htdocs\diver\4\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\MAMP\htdocs\diver\4\app\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/diver/4/app/index.php?r=Data/Look
+---
+2019/08/02 11:44:39 [error] [exception.ParseError] ParseError: syntax error, unexpected '{' in C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php:25
+Stack trace:
+#0 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(276): CWebApplication->createController('Random/')
+#1 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(141): CWebApplication->runController('Data/Random')
+#2 C:\MAMP\htdocs\diver\4\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\MAMP\htdocs\diver\4\app\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/diver/4/app/index.php?r=Data/Random
+---
+2019/08/02 11:47:45 [error] [php] count(): Parameter must be an array or an object that implements Countable (C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php:25)
+Stack trace:
+#0 C:\MAMP\htdocs\diver\4\framework\web\CController.php(286): Datacontroller->runAction()
+#1 C:\MAMP\htdocs\diver\4\framework\web\CController.php(265): Datacontroller->runActionWithFilters()
+#2 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(282): Datacontroller->run()
+#3 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\MAMP\htdocs\diver\4\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\MAMP\htdocs\diver\4\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/diver/4/app/index.php?r=Data/Look
+in C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php (25)
+in C:\MAMP\htdocs\diver\4\app\index.php (13)
+2019/08/02 11:47:48 [error] [php] count(): Parameter must be an array or an object that implements Countable (C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php:25)
+Stack trace:
+#0 C:\MAMP\htdocs\diver\4\framework\web\CController.php(286): Datacontroller->runAction()
+#1 C:\MAMP\htdocs\diver\4\framework\web\CController.php(265): Datacontroller->runActionWithFilters()
+#2 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(282): Datacontroller->run()
+#3 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\MAMP\htdocs\diver\4\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\MAMP\htdocs\diver\4\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/diver/4/app/index.php?r=Data/Look
+in C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php (25)
+in C:\MAMP\htdocs\diver\4\app\index.php (13)
+2019/08/02 11:47:59 [error] [php] count(): Parameter must be an array or an object that implements Countable (C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php:25)
+Stack trace:
+#0 C:\MAMP\htdocs\diver\4\framework\web\CController.php(286): Datacontroller->runAction()
+#1 C:\MAMP\htdocs\diver\4\framework\web\CController.php(265): Datacontroller->runActionWithFilters()
+#2 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(282): Datacontroller->run()
+#3 C:\MAMP\htdocs\diver\4\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\MAMP\htdocs\diver\4\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\MAMP\htdocs\diver\4\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/diver/4/app/index.php?r=Data/Look
+in C:\MAMP\htdocs\diver\4\app\protected\controllers\DataController.php (25)
+in C:\MAMP\htdocs\diver\4\app\index.php (13)
